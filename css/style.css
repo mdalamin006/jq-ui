@@ -1,0 +1,218 @@
+.menu {}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    margin-right: 10px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(46, 40, 34);
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(170, 68, 68);
+}
+
+/* Example 1 */
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    background-color: rgb(146, 97, 72);
+    color: rgb(241, 241, 241);
+}
+
+#dropDrag {
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+    background-color: rgb(238, 187, 187);
+}
+
+#droppable {
+
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+#resizeCustom {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+
+#resizeCustom h3 {
+    text-align: center;
+    margin: 0;
+}
+
+#feedback {
+    font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+    background: #FECA40;
+}
+
+#selectable .ui-selected {
+    background: #F39814;
+    color: white;
+}
+
+#selectable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+#selectable li {
+    padding: 20px;
+    font-size: 1.4em;
+
+}
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 20px;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+
+#draggableTest {
+    width: 100px;
+    height: 60px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+#droppableTest,
+#droppableTest2 {
+    width: 230px;
+    height: 120px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+#droppable-inner,
+#droppable2-inner {
+    width: 170px;
+    height: 60px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+.ui-progressbar {
+    position: relative;
+}
+
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+#tab {
+    color: #fff;
+}
+
+/* Effects */
+#button {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#effect {
+    width: 240px;
+    padding: 1em;
+    border: 1px solid #000;
+    background: #eee;
+    color: #333;
+}
+
+.newClass {
+    text-indent: 40px;
+    letter-spacing: .4em;
+    width: 410px;
+    height: 120px;
+    padding: 30px;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+
+
+/* Tooltip */
+.ui-tooltip, .arrow:after {
+    background: black;
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
