@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Meta link-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Name">
+  <meta name="description" content="About The Website ">
+  <meta name="keywords" content="Name Of Content">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="5 days">
+  <meta name="author" content="Md.Al-Amin">
+  <!--Meta link-->
+
+  <title> jQ-UI-Widgets</title>
+  <!-- Font Awesome Start -->
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+  <!-- Font Awesome ENd -->
+  <!--Css link-->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="menu">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="index.html">Interactions</a></li>
+        <li class="list-inline-item"><a href="widgets.html">widgets</a></li>
+        <li class="list-inline-item"><a href="https://mdalamin006.github.io/jq-ui-effects/">Effects</a></li>
+      </ul>
+    </div>
+
+    <h1 class="text-left text-decoration-underline">widgets:-</h1>
+    <!-- Example 6-->
+    <h3>Example 6:- Accordion</h3>
+    <div id="accordion">
+      <h3 class="bg-warning">Section 1</h3>
+      <div class="bg-danger">
+        <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+      </div>
+      <h3 class="bg-warning">Section 2</h3>
+      <div class="bg-danger">
+        <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+        </p>
+      </div>
+      <h3 class="bg-warning">Section 3</h3>
+      <div class="bg-danger">
+        <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+      <h3 class="bg-warning">Section 4</h3>
+      <div class="bg-danger">
+        <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+        </p>
+        <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <!-- AutoCompelete -->
+    <h3>Example 7:- Auto Compelete</h3>
+    <label for="tags">Auto Compelete: </label>
+    <input id="tags">
+    <hr>
+    <!-- Datepicker -->
+    <h3>Example 8:-Datepicker</h3>
+    <label for="date">Datepicker:</label>
+    <input type="text" id="date" placeholder="Select date..."> <input type="text" id="alternate" size="30">
+
+    <p>Format options:<br>
+      <select id="format">
+        <option value="mm/dd/yy">Default - mm/dd/yy</option>
+        <option value="yy-mm-dd">ISO 8601 - yy-mm-dd</option>
+        <option value="d M, y">Short - d M, y</option>
+        <option value="d MM, y">Medium - d MM, y</option>
+        <option value="DD, d MM, yy">Full - DD, d MM, yy</option>
+        <option value="&apos;day&apos; d &apos;of&apos; MM &apos;in the year&apos; yy">With text - &apos;day&apos; d
+          &apos;of&apos; MM &apos;in the year&apos; yy</option>
+      </select>
+    </p>
+    <p>Animations:<br>
+      <select id="anim">
+        <option value="show">Show (default)</option>
+        <option value="slideDown">Slide down</option>
+        <option value="fadeIn">Fade in</option>
+        <option value="blind">Blind (UI Effect)</option>
+        <option value="bounce">Bounce (UI Effect)</option>
+        <option value="clip">Clip (UI Effect)</option>
+        <option value="drop">Drop (UI Effect)</option>
+        <option value="fold">Fold (UI Effect)</option>
+        <option value="slide">Slide (UI Effect)</option>
+        <option value>None</option>
+      </select>
+    </p>
+
+    <hr>
+
+    <!-- Dailog box -->
+    <h3>Example 8:- Dailog </h3>
+
+    <div id="dialog" title="It's warning for you">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit consectetur qui dolorem tempora labore nemo
+        animi placeat? Natus quisquam nobis sint fuga, quibusdam possimus, maxime suscipit doloribus placeat recusandae
+        repudiandae!</p>
+
+    </div>
+    <button id="opener">Open Dialog</button>
+
+
+    <hr>
+    <!-- Progress label -->
+    <h3>Example 9:- Progress</h3>
+    <div id="progressbar">
+      <div class="progress-label">Loading...</div>
+    </div>
+    <hr>
+    <!-- Range slider -->
+    <h3>Example 10:- Slider</h3>
+    <p>
+      <label for="amount">Price range:</label>
+      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+    <div class="col-sm-3">
+      <div id="slider-range" class="bg-danger"></div>
+    </div>
+    <hr>
+    <!-- Tabs -->
+    <h3>Example 11:- Tabs</h3>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1" class="bg-warning  ">Nunc tincidunt</a></li>
+        <li><a href="#tabs-2" class="bg-warning ">Proin dolor</a></li>
+        <li><a href="#tabs-3" class="bg-warning ">Aenean lacinia</a></li>
+      </ul>
+      <div id="tabs-1" class="bg-dark">
+        <p><strong>Click this tab again to close the content pane.</strong></p>
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi
+          sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus
+          auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci.
+          Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius
+          sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+      </div>
+      <div id="tabs-2" class="bg-dark">
+        <p><strong>Click this tab again to close the content pane.</strong></p>
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc.
+          Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut
+          tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam.
+          Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean
+          vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus
+          pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur
+          tortor et purus.</p>
+      </div>
+      <div id="tabs-3" class="bg-dark ">
+        <p><strong>Click this tab again to close the content pane.</strong></p>
+        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla
+          facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec
+          mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam
+          scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor,
+          tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque
+          nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+      </div>
+    </div>
+  
+  <hr>
+  <!-- Tooltip -->
+  <h3>Example 12:-Tooltip</h3>
+  <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+
+  <hr>
+
+
+</div>
+
+  <!--  Script -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <!--  Script End-->
+
+</body>
+
+</html>
